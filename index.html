@@ -1,0 +1,75 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Venue</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.js">
+</head>
+<body class="container">
+<h1>Where Dream Come True Wedding Venue.</h1>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6" style="border:5px solid 
+  rgb(151, 80, 80)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQasn4fXo7YHkKOtE_ujHlToZQ2YkqcVL7heg&usqp=CAU" alt="responsive webite" class="img-fluid">
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6" style="border:1px solid 
+  rgb(136, 34, 34)">
+        <h2>The Perfect combination of indoor and outdoor space.</h2>
+        <p>This is the perfect place to take the next step in! Not only do we have the perfect indoor/outdoor space to say "I Do"
+         But we also have all the space to celebrate with all your love ones!</p>
+        <p>Please put the date you are interested in and your last name and we will get back to you.</p>
+      </div>
+    </div>
+  </div>
+<br>
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="wedding-date">Wedding Date</label>
+                    <input type="date" class="form-group" id="new-wedding-date">
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="rehearse-date">Rehearse Date</label>
+                    <input type="date" class="form-group" id="new-rehearse-date">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <div class="form-group">
+                    <label for="couples-last-name">Couples Last name</label>
+                    <input type="name" class="form-group" id="couples-last-name" placeholder="Name">
+                    <div>
+                        <button id="add" class="btn btn-primary from-control">Create</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<table id="list" class="table table-dark table-striped" >
+    <th>Couple</th>
+    <th>Date Created</th>
+    <th>Wedding Date</th>
+    <th>Rehearse Date</th>
+    <th>Actions</th>
+
+</table>
+
+
+    
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
